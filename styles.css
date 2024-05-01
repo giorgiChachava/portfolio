@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background: rgb(9, 17, 35);
+  color: white;
+}
+
+.left-div {
+  margin-top: 10vh;
+  position: fixed;
+  height: 100vh;
+  width: 400px;
+  /* background-color: lightcoral; */
+  margin-left: 15%;
+}
+.left-top-first {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+
+.left-top-second {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 24px;
+}
+
+.left-top-third {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+}
+
+nav {
+  width: 60%;
+  margin-top: 10vh;
+}
+nav div {
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.15s;
+  font-weight: 400;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav img {
+  margin-bottom: 5px;
+  width: 50px;
+  height: 1px;
+  margin-right: 10px;
+
+  transition: 0.3s;
+}
+
+nav div:hover {
+  color: white;
+  font-weight: 800;
+}
+
+nav img:hover {
+  width: 100px;
+  opacity: 100;
+}
+
+footer {
+  position: fixed;
+  bottom: 90px;
+  left: 14%;
+  /* background-color: lightblue; */
+}
+
+footer a {
+  text-decoration: none;
+}
+footer img {
+  height: 25px;
+  margin-right: 25px;
+  transition: 0.15s;
+}
+
+footer img:hover {
+  /* border: rgb(255, 255, 255) solid 1px; */
+  padding: 2px;
+}
+
+main {
+  /* background-color: lightblue; */
+  width: 35%;
+  margin-left: 50%;
+}
+
+.about p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+
+.about {
+  padding-top: 10vh;
+  margin-bottom: 60px;
+}
+
+.education {
+  padding-top: 60px;
+}
+
+.education-div {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 20px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+.education-div:hover {
+  box-shadow: 0 0 10px rgba(43, 43, 43, 0.226);
+  border-radius: 10px;
+  background-color: rgba(205, 205, 205, 0.03);
+}
+
+.education-div-left {
+  width: 35%;
+  height: 100%;
+  opacity: 0.4;
+  font-size: 0.95em;
+}
+
+.education-div-right {
+  width: 65%;
+  /* background-color: lightgreen; */
+  height: 100%;
+  opacity: 0.7;
+}
+
+.education-div-right h3 {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.education-div-right p {
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.gita-button {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 6px 18px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: none;
+  color: rgb(94 234 212);
+  font-weight: 500;
+  background-color: rgba(45, 212, 191, 0.1);
+  margin-right: 10px;
+  opacity: 0.7;
+  transition: 0.15s;
+}
+
+.gita-button:hover {
+  opacity: 1;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.stro {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.project {
+  margin-top: 40px;
+  padding-bottom: 100px;
+  padding-top: 60px;
+  width: 100%;
+}
+.project-div {
+  display: flex;
+  width: 100%;
+  padding: 50px 20px;
+}
+.project-div:hover {
+  box-shadow: 0 0 10px rgba(43, 43, 43, 0.226);
+  border-radius: 10px;
+  background-color: rgba(205, 205, 205, 0.03);
+}
+
+.project-div-left {
+  width: 27%;
+  height: 100%;
+  display: flex;
+}
+
+.project-div-right {
+  width: 73%;
+}
+
+.project img {
+  width: 80%;
+  border-radius: 3px;
+  border: 2px solid rgb(9, 17, 35);
+}
+
+.project img:hover {
+  border: 2px solid rgba(128, 128, 128, 0.08);
+}
+
+.project-div h3 {
+  margin-bottom: 8px;
+  opacity: 0.8;
+  font-size: 18px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.project-div h3:hover {
+  color: rgb(94 234 212);
+  opacity: 0.8;
+}
+.project-div p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+
+.proje {
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+.sad-fact{
+  opacity: 0.8;
+  margin-bottom: 20px;
+  }
+
+  @media  only screen and (max-width: 1300px) {
+    main{
+      width: 75%;
+      margin-left: 15%;
+      min-width: 350px;
+    }
+    footer{
+      display: none;
+      
+    }
+
+    .left-div{
+      position: static;
+      height: 400px;
+      min-width: 350px;
+    }
+    .left-bottom-div{
+      position: fixed;
+    }
+
+    .education-div-left{
+      width: 10%;
+      min-width: 100px;
+    }
+
+    .education-div-right{
+      width: 90%;
+    }
+  }
